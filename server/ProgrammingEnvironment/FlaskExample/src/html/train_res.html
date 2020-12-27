@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1 style="text-align:center;">Your model training info</h1>
+
+<div class="container">
+      {{ wtf.quick_form(form) }}
+</div>
+
+<img src="{{url_for('static', filename='img/' + filename)}}"/>
+
+{% endblock %}

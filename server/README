@@ -1,0 +1,12 @@
+* Полезные ссылки 
+    * https://wiki.cmc.msu.ru/ 
+    * https://portal.azure.com/#home https://azure.microsoft.com/ru-ru/free/students/
+    * https://colab.research.google.com/ 
+    * https://git-scm.com/book/ru/v2 
+    * Установка докера 
+        * Windows: https://hub.docker.com/?overlay=onboarding
+        * Linux: https://docs.docker.com/install/linux/docker-ce/ubuntu/
+        
+* Docker
+    1. Чтобы собрать докер образ: `docker build -t repo_name/image_name:image_tag .`
+    2. Чтобы его запустить: `docker run -p 5000:5000 -v "$PWD/FlaskExample/data:/root/FlaskExample/data" --rm -i repo_name/image_name`
